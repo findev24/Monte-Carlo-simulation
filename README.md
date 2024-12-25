@@ -6,13 +6,13 @@ This repository provides an implementation of a Monte Carlo Simulation. Monte Ca
 - Extensible Framework: Easily adapt the code to different types of problems.
 - Visualization: Generate visual representations of the simulation results (histograms).
 
-# Use Cases - 
+# Use Cases 
 - Risk assessment in financial portfolios
 - Estimation of probabilities in complex systems
 - Simulation of physical phenomena
 - Decision-making under uncertainty
 
-# Contributing - 
+# Contributing 
 Contributions are welcome! Please follow these steps:
 1. Fork the repository
 2. Create a feature branch
@@ -20,5 +20,5 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch
 5. Open a pull request
 
-# Contact - 
+# Contact 
 For questions or suggestions, feel free to open an issue or reach out at manasa.savnur@gmail.com
