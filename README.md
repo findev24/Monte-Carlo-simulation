@@ -1,10 +1,26 @@
 # Monte-Carlo-simulation
 This repository provides an implementation of a Monte Carlo Simulation. Monte Carlo methods are widely used for solving problems in various fields, such as finance, physics, engineering, and more. The simulation uses random sampling to estimate numerical results and is particularly useful for modeling systems with inherent uncertainty.
 
-# Features
-- Customizable Parameters: Define your simulation parameters, such as number of iterations, probability distributions, and variables.
-- Extensible Framework: Easily adapt the code to different types of problems.
-- Visualization: Generate visual representations of the simulation results (histograms).
+📌 Key Features
+Pulls real historical price data using the yfinance library.
+
+Simulates 10,000 potential return paths over a 1-year horizon (252 trading days).
+
+Estimates portfolio value paths using log-normal return accumulation.
+
+Calculates Monte Carlo-based Value at Risk (VaR) at a 99% confidence level.
+
+Visualizes the distribution of simulated returns and the VaR threshold.
+
+📈 Financial Concept: Value at Risk (VaR)
+VaR estimates the maximum potential loss in portfolio value over a defined period for a given confidence level.
+In this project:
+
+A 1-year holding period
+
+A 99% confidence level
+
+Monte Carlo simulation with normally distributed daily returns
 
 # Use Cases 
 - Risk assessment in financial portfolios
