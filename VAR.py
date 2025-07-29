@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Fetch historical data for a stock
 data = yf.download("MSFT", start="2020-01-01", end="2025-01-01")
-returns = data['Adj Close'].pct_change().dropna()
+returns = data['Close'].pct_change().dropna()
 
 # Simulate future returns using Monte Carlo
 num_simulations = 10000
